@@ -1,0 +1,886 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1340px;
+  height: auto;
+  background-color: #191919;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+header img {
+  margin-top: 43px;
+  margin-left: 70px;
+  margin-bottom: 43px;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  list-style: none;
+  color: #ffff;
+  position: absolute;
+  left: 50%;
+  margin-left: 300px;
+  gap: 40px;
+  margin-right: 70px;
+  top: 9%;
+  transition: all;
+  cursor: pointer;
+}
+ul .home:hover {
+  color: #118da8;
+  text-decoration: underline;
+  font-size: 18px;
+}
+ul .episodes:hover {
+  text-decoration: underline;
+}
+ul .about:hover {
+  text-decoration: underline;
+}
+ul .contact:hover {
+  text-decoration: underline;
+}
+.homepage img {
+  width: 650px;
+  height: 873px;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+.homepage .stick {
+  position: absolute;
+  left: 5.6%;
+  top: 0.5%;
+  margin-top: 144px;
+  margin-left: -25px;
+  width: 50px;
+  height: 50px;
+}
+.homepage h2 {
+  position: absolute;
+  height: 176px;
+  left: 0%;
+  right: 0.75%;
+  top: 162.58px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 88px;
+  width: 380px;
+  margin-left: 780px;
+  margin-top: 334px;
+
+  letter-spacing: 3.2px;
+
+  color: #ffffff;
+}
+.kind img {
+  position: absolute;
+  right: 33%;
+  top: 60%;
+  margin-top: 300px;
+  margin-left: 50px;
+  width: 125px;
+  height: 100px;
+}
+.homepage p {
+  position: absolute;
+  height: 24px;
+  left: 7.61%;
+  right: 69.55%;
+  top: 80%;
+  width: 100px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-size: 19px;
+  line-height: 24px;
+  margin-top: 400px;
+  margin-left: 685px;
+
+  color: #ffffff;
+}
+.image img {
+  display: inline-block;
+  /* position: sticky;
+  width: 31px;
+  height: 32px;
+
+  background: #191919; */
+  width: 31px;
+  height: 32px;
+}
+.grand {
+  position: absolute;
+  left: 53%;
+  top: 80%;
+  margin-top: 410px;
+}
+h2 {
+  display: inline;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 79px;
+  /* identical to box height, or 124% */
+
+  letter-spacing: 2.88px;
+
+  color: #ffffff;
+}
+.episode {
+  margin-top: 33px;
+  margin-left: 70px;
+}
+button {
+  background-color: #118da8;
+  border: none;
+  width: 178px;
+  height: 51px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  /* identical to box height, or 159% */
+
+  color: #ffffff;
+  position: absolute;
+  margin-top: 15px;
+  right: 5%;
+  margin-left: 1100px;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: transparent;
+  border: 3px solid #118da8;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.card {
+  width: 1230px;
+  height: 545px;
+  background-color: black;
+  margin: 0 auto;
+}
+.card img {
+  margin-top: 43px;
+  margin-left: 43px;
+}
+.gear {
+  width: 73px;
+  height: 27px;
+  margin-top: 48px;
+  margin-right: 650px;
+}
+.epica {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  margin-left: 510px;
+  position: absolute;
+  top: 180%;
+  margin-top: 180px;
+
+  color: #118da8;
+  transition: all 1s;
+  cursor: pointer;
+}
+.epica:hover {
+  text-decoration: underline;
+  font-size: 20px;
+}
+h1 {
+  width: 600px;
+  height: 141px;
+
+  position: absolute;
+  height: 141px;
+  left: 40%;
+  right: 9.9%;
+  top: 215.56%;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70px;
+  margin-left: 15px;
+  /* or 110% */
+
+  letter-spacing: 2.56px;
+
+  color: #ffffff;
+}
+.dog {
+  width: 500px;
+  position: absolute;
+  height: 99px;
+  left: 41.3%;
+  right: 2.7%;
+  top: 238.56%;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.school {
+  position: absolute;
+  height: 51px;
+  left: -40%;
+  right: 50%;
+  top: 255%;
+
+  background: #118da8;
+  border-radius: 6px;
+}
+
+.card-two {
+  width: 1230px;
+  height: 545px;
+  background-color: black;
+  margin: 0 auto;
+
+  border-radius: 10px;
+}
+.card-two img {
+  margin-top: 43px;
+  margin-left: 43px;
+}
+.gear-one {
+  position: absolute;
+  left: -40%;
+  width: 123px;
+  height: 27px;
+  margin-top: 48px;
+  /* margin-right: 650px; */
+}
+.hello {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  margin-left: 510px;
+  position: absolute;
+  top: 265%;
+  margin-top: 180px;
+
+  color: #118da8;
+  transition: all 1s;
+}
+.hello:hover {
+  text-decoration: underline;
+  font-size: 20px;
+}
+.meet {
+  width: 600px;
+  height: 141px;
+
+  position: absolute;
+  height: 141px;
+  left: 40%;
+  right: 9.9%;
+  top: 299.56%;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70px;
+  margin-left: 15px;
+  /* or 110% */
+
+  letter-spacing: 2.56px;
+
+  color: #ffffff;
+}
+.dog-new {
+  width: 500px;
+  position: absolute;
+  height: 99px;
+  left: 41.3%;
+  right: 2.7%;
+  top: 323.56%;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.school-new {
+  position: absolute;
+
+  height: 51px;
+  left: -40%;
+  right: 50%;
+  top: 337%;
+
+  background: #118da8;
+  border-radius: 6px;
+}
+
+.card-three {
+  width: 1230px;
+  height: 545px;
+  background-color: black;
+  margin: 0 auto;
+}
+.card-three img {
+  margin-top: 43px;
+  margin-left: 43px;
+}
+.gear {
+  width: 73px;
+  height: 27px;
+  margin-top: 48px;
+  margin-right: 650px;
+}
+.lolito {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  margin-left: 510px;
+  position: absolute;
+  top: 353%;
+  margin-top: 180px;
+
+  color: #118da8;
+  transition: all 1s;
+}
+.lolito:hover {
+  text-decoration: underline;
+  font-size: 20px;
+}
+.want {
+  width: 600px;
+  height: 141px;
+
+  position: absolute;
+  height: 141px;
+  left: 40%;
+  right: 9.9%;
+  top: 387.56%;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70px;
+  margin-left: 15px;
+  /* or 110% */
+
+  letter-spacing: 2.56px;
+
+  color: #ffffff;
+}
+.dog-old {
+  width: 500px;
+  position: absolute;
+  height: 99px;
+  left: 41.3%;
+  right: 2.7%;
+  top: 408.56%;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.school-old {
+  position: absolute;
+  height: 51px;
+  left: -40%;
+  right: 50%;
+  top: 424%;
+
+  background: #118da8;
+  border-radius: 6px;
+}
+.singer {
+  margin-top: 350px;
+  margin-left: 70px;
+}
+.singer a {
+  position: absolute;
+  top: 470%;
+  left: -2%;
+  margin-top: 340px;
+  margin-left: 105px;
+  color: #118da8;
+  text-decoration: none;
+}
+.singer h3 {
+  position: absolute;
+  height: 80px;
+  left: 0%;
+  right: 15.93%;
+  top: 525.84%;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 79px;
+  /* identical to box height, or 122% */
+
+  letter-spacing: 2.88px;
+
+  color: #ffffff;
+  margin-left: 70px;
+}
+
+.singer p {
+  position: absolute;
+  height: 66px;
+  left: 0%;
+  right: 5.76%;
+  top: 541.84%;
+  width: 500px;
+  margin-left: 70px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  /* or 150% */
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.singer .second {
+  position: absolute;
+  height: 66px;
+  left: 0%;
+  right: 5.76%;
+  top: 559.84%;
+  width: 500px;
+  margin-left: 70px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  /* or 150% */
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.singer .wifi {
+  margin-top: -250px;
+  margin-left: 550px;
+}
+.form {
+  width: 1200px;
+  height: 387px;
+  background-color: black;
+
+  margin: 0 auto;
+}
+.form .monster {
+  position: absolute;
+  height: 27px;
+  left: 5.35%;
+  right: 69%;
+  top: 575.12%;
+  margin-top: 59px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 200px;
+  width: 400px;
+  height: 300px;
+  /* background-color: black; */
+  border-radius: 6px;
+  margin-left: 70px;
+  color: #118da8;
+  text-decoration: none;
+}
+.stars {
+  position: absolute;
+  top: 694%;
+  width: 400px;
+  height: 300px;
+  background-color: #000000;
+  margin-left: 70px;
+}
+
+.stars h4 {
+  position: absolute;
+  height: 130px;
+  left: 9%;
+  right: 14.18%;
+  top: 30%;
+  width: 280px;
+  padding-left: 1px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 43px;
+  color: #ffffff;
+}
+.stars p {
+  position: absolute;
+  height: 29px;
+  left: 9%;
+  right: 56.97%;
+  top: 79%;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.fivestar {
+  position: absolute;
+  top: -70%;
+  left: -20%;
+}
+
+.form h1 {
+  position: absolute;
+  height: 159px;
+  left: 8.35%;
+  right: 23.52%;
+  top: 620.12%;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 79px;
+  letter-spacing: 2.88px;
+  color: #ffffff;
+}
+.form img {
+  position: absolute;
+  height: 91px;
+  left: 3.5%;
+  right: 91.62%;
+  top: 657%;
+
+  border-radius: 0px;
+  /* width: 90px;
+  height: 50px;
+  margin-top: 400px; */
+}
+.form input {
+  width: 400px;
+  height: 82px;
+  margin-top: 60px;
+  margin-left: 700px;
+  background-color: transparent;
+  font-size: 25px;
+}
+
+.fivestar {
+  padding-top: 260px;
+  padding-left: 125px;
+}
+
+.stars-one {
+  position: absolute;
+  top: 600%;
+  left: 23%;
+  margin-top: 587px;
+  width: 400px;
+  height: 300px;
+  background-color: black;
+  border-radius: 6px;
+  margin-left: 170px;
+}
+.fivestar-one {
+  padding-top: 54px;
+  padding-left: 50px;
+}
+.fivestar-one h4 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  padding-top: 20px;
+  width: 250px;
+  color: #ffffff;
+}
+.fivestar-one p {
+  position: absolute;
+  width: 150px;
+
+  left: 15%;
+  right: 56.97%;
+  top: 78%;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.stars-two {
+  position: absolute;
+  top: 600%;
+  left: 53%;
+  margin-top: 587px;
+  width: 400px;
+  height: 300px;
+  background-color: black;
+  border-radius: 6px;
+  margin-left: 175px;
+}
+.fivestar-two {
+  padding-top: 54px;
+  padding-left: 50px;
+}
+.stars-two h4 {
+  position: absolute;
+  height: 87px;
+  left: 11.82%;
+  right: 20.09%;
+  top: 92px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  /* or 120% */
+
+  color: #ffffff;
+}
+.fivestar-two p {
+  position: absolute;
+  width: 150px;
+  left: 12%;
+
+  right: 56.97%;
+  top: 78%;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.stars-three {
+  position: absolute;
+  top: 745%;
+  width: 400px;
+  height: 300px;
+  background-color: #000000;
+  margin-left: 70px;
+}
+
+.stars-three h4 {
+  position: absolute;
+  height: 130px;
+  left: 9%;
+  right: 14.18%;
+  top: 30%;
+  width: 280px;
+  padding-left: 1px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 43px;
+  color: #ffffff;
+}
+.stars-three p {
+  position: absolute;
+  height: 29px;
+  width: 200px;
+  left: 9%;
+  right: 56.97%;
+  top: 79%;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.fivestar-three {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+.stars-four {
+  position: absolute;
+  top: 651%;
+  left: 23%;
+  margin-top: 587px;
+  width: 400px;
+  height: 300px;
+  background-color: black;
+  border-radius: 6px;
+  margin-left: 170px;
+}
+.stars-four h4 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  padding-top: 20px;
+  width: 250px;
+  color: #ffffff;
+  margin-left: 50px;
+}
+.stars-four p {
+  position: absolute;
+  width: 150px;
+
+  left: 15%;
+  right: 56.97%;
+  top: 78%;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.fivestar-four {
+  margin-left: 50px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  padding-top: 20px;
+  width: 250px;
+  color: #ffffff;
+}
+
+.stars-five {
+  position: absolute;
+  top: 651%;
+  left: 53%;
+  margin-top: 587px;
+  width: 400px;
+  height: 300px;
+  background-color: black;
+  border-radius: 6px;
+  margin-left: 175px;
+}
+.fivestar-five {
+  position: absolute;
+
+  padding-top: 54px;
+  padding-left: 50px;
+}
+
+.stars-five h4 {
+  position: absolute;
+  height: 173px;
+  left: 11.82%;
+  right: 13.24%;
+  top: 30%;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  /* or 120% */
+
+  color: #ffffff;
+}
+.stars-five p {
+  position: absolute;
+  height: 29px;
+  left: 11.82%;
+  right: 56.26%;
+  top: 80%;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 29px;
+  /* identical to box height, or 125% */
+
+  color: rgba(255, 255, 255, 0.7);
+}
+footer img {
+  position: absolute;
+  top: 160%;
+  right: 262%;
+}
+.instagram{
+  position: absolute;
+  left: -201%;
+  margin-top: 50px;
+}
+.twitter{
+  position: absolute;
+  left: -190%;
+  margin-top: 50px;
+}
+.facebook{
+  position: absolute;
+  left: -179%;
+  margin-top: 50px;
+}
+.list{
+  flex-direction: column;
+  position: absolute;
+  top:162%;
+  left: -180%;
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+/* identical to box height, or 159% */
+
+
+color: #FFFFFF;
+}
+
+.big-list{
+ 
+  flex-direction: column;
+  position: absolute;
+  top:162%;
+  left: -100%;
+  
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+/* identical to box height, or 159% */
+
+
+color: #FFFFFF;
+}
